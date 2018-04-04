@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cypher Nature Website</title>
+  <meta name="description" content="conceptartSubmission">
+  <meta name="author" content="Ben Hawklyn">
+
+  <link href="css/reset.css" rel="stylesheet">
+  <!-- must use for zurb-->
+  <link rel="stylesheet" href="zurb/css/foundation.css">
+  <script src="zurb/js/vendor/modernizr.js"></script>
+  <!-- must use for zurb-->
+  <link rel="stylesheet" href="css/project2.css">
+  <link href="https://fonts.googleapis.com/css?family=Economica|Exo|Rajdhani|VT323" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+
+
+  <section class="row vspace">
+    <div class="large-6 medium-6 small-12 columns tall_60 vspace">
+      <h1>CYPHER</h1>
+    </div>
+    <div class="large-6 medium-6 small-12 columns tall_60 vspace">
+      <h1>NATURE</h1>
+    </div>
+  </section>
+  <section class="row vspace">
+    <div>
+      <nav><!--Global Nav-->
+        <ul>
+          <div class="large-4 columns">
+          <li><a href="index.html" class="current" >Home</a></li>
+        </div>
+        <div class="large-4 columns">
+          <li><a href="about.html">About</a></li>
+        </div>
+        <div class="large-4 columns">
+          <li><a href="projects.html">Projects</a></li>
+        </div>
+        </ul>
+      </nav>
+    </div>
+  </section>
+</head>
+
+  <body>
+    <section class="row">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<h3 class="w3-center">OneWheel at Natural Bridges</h3>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img/onewheel1.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel2.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel3.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel4.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel5.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel6.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel7.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel8.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel9.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel10.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel11.png" style="width:70%">
+  <img class="mySlides" src="img/onewheel12.png" style="width:70%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+    <br>
+
+
+
+<!--need for zurb-->
+    <script src="zurb/js/vendor/jquery.js"></script>
+    <script src="zurb/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      <!--//need for zurb-->
+    </script>
+  </body>
+</html>
